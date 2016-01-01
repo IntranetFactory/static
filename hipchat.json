@@ -1,0 +1,16 @@
+{
+  "name": "adenin HipChat integration",
+  "description": "An integration that does wonderful things",
+  "key": "localhost:2014.GetCapabilitiesDescriptor",
+  "links": {
+    "homepage": "https://localhost:2014/",
+    "self": "https://localhost:2014/GetCapabilitiesDescriptor/hipchat"
+  },
+  "capabilities": {
+    "hipchatApiConsumer": {
+      "scopes": [
+        "send_notification"
+      ]
+    }
+  }
+}
