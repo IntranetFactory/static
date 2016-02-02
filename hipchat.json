@@ -24,11 +24,9 @@
 			"allowRoom" : false,
 			"callbackUrl" : "https://localhost:2014/OAuth2ReturnURL"
 		},
-		"oauth2Consumer" : {
-			[
-				"http://localhost:2014/OAuth2ReturnURL"
-			]
-		},
+		"oauth2Consumer" : [
+			"http://localhost:2014/OAuth2ReturnURL"
+		],
 		"oauth2Provider" : {
 			"authorizationUrl" : "https://www.hipchat.com/users/authorize",
 			"tokenUrl" : "https://api.hipchat.com/v2/oauth/token"
