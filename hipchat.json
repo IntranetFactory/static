@@ -19,11 +19,7 @@
 				"view_messages"
 			]
 		},
-		"installable" : {
-			"allowGlobal" : true,
-			"allowRoom" : false,
-			"callbackUrl" : "https://localhost:2014/OAuth2ReturnURL"
-		},
+		
 		"oauth2Consumer" : {
 			"redirectionUrls":["http://localhost:2014/OAuth2ReturnURL"]
 		},
