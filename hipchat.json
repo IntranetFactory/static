@@ -1,23 +1,35 @@
 {
-  "name": "adenin HipChat integration",
-  "description": "An integration that does wonderful things",
-  "key": "localhost:2014.GetCapabilitiesDescriptor",
-  "links": {
-    "homepage": "https://localhost:2014/",
-    "self": "https://localhost:2014/GetCapabilitiesDescriptor/hipchat"
-  },
-  "capabilities": {
-    "hipchatApiConsumer": {
-      "scopes": [
-        "admin_group",
-        "admin_room",
-        "manage_rooms",
-        "send_message",
-        "send_notification",
-        "view_group",
-        "view_room",
-        "view_messages"
-      ]
-    }
-  }
+	"name" : "adenin HipChat integration",
+	"description" : "An integration that does wonderful things",
+	"key" : "localhost:2014.GetCapabilitiesDescriptor",
+	"links" : {
+		"homepage" : "https://localhost:2014/",
+		"self" : "https://localhost:2014/GetCapabilitiesDescriptor/hipchat"
+	},
+	"capabilities" : {
+		"hipchatApiConsumer" : {
+			"scopes" : [
+				"admin_group",
+				"admin_room",
+				"manage_rooms",
+				"send_message",
+				"send_notification",
+				"view_group",
+				"view_room",
+				"view_messages"
+			]
+		},
+		"installable" : {
+			"allowGlobal" : true,
+			"allowRoom" : false,
+			"callbackUrl" : "https://localhost:2014/OAuth2ReturnURL"
+		},
+		"oauth2Consumer" : {[
+		  "http://localhost:2014/OAuth2ReturnURL" 
+		]},
+		 "oauth2Provider": {
+      "authorizationUrl": "https://www.hipchat.com/users/authorize", 
+      "tokenUrl": "https://api.hipchat.com/v2/oauth/token"
+	  } 
+	}
 }
