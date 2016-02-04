@@ -3,8 +3,8 @@
 	"description" : "An integration that does wonderful things",
 	"key" : "localhost:2014.GetCapabilitiesDescriptor",
 	"links" : {
-		"homepage" : "https://localhost:2014/",
-		"self" : "https://localhost:2014/GetCapabilitiesDescriptor/hipchat"
+		"homepage" : "http://localhost:2014/",
+		"self" : "http://localhost:2014/GetCapabilitiesDescriptor/hipchat"
 	},
 	"capabilities" : {
 		"hipchatApiConsumer" : {
@@ -19,7 +19,11 @@
 				"view_messages"
 			]
 		},
-		
+		"installable" : {
+ 			"allowGlobal" : true,
+ 			"allowRoom" : true,
+ 			"callbackUrl" : "http://localhost:2014/HipChatCallback"
+ 		},
 		"oauth2Consumer" : {
 			"redirectionUrls":["http://localhost:2014/OAuth2ReturnURL"]
 		},
