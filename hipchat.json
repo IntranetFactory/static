@@ -22,7 +22,7 @@
 		"installable" : {
  			"allowGlobal" : true,
  			"allowRoom" : true,
- 			"callbackUrl" : "http://localhost:2014/HipChatCallback"
+ 			"callbackUrl" : "https://localhost/HipChatCallback"
  		},
 		"oauth2Consumer" : {
 			"redirectionUrls":["http://localhost:2014/OAuth2ReturnURL"]
