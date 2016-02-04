@@ -1,10 +1,10 @@
 {
 	"name" : "adenin HipChat integration",
-	"description" : "An integration that does wonderful things",
-	"key" : "localhost:2014.GetCapabilitiesDescriptor",
+	"description" : "adenin Technologies HipChat Integration",
+	"key" : "localhost.adenin.com:2014.GetCapabilitiesDescriptor",
 	"links" : {
-		"homepage" : "http://localhost:2014/",
-		"self" : "http://localhost:2014/GetCapabilitiesDescriptor/hipchat"
+		"homepage" : "https://localhost.adenin.com/",
+		"self" : "https://localhost.adenin.com/GetCapabilitiesDescriptor/hipchat"
 	},
 	"capabilities" : {
 		"hipchatApiConsumer" : {
@@ -22,10 +22,10 @@
 		"installable" : {
  			"allowGlobal" : true,
  			"allowRoom" : true,
- 			"callbackUrl" : "https://localhost/HipChatCallback"
+ 			"callbackUrl" : "https://localhost.adenin.com/HipChatCallback"
  		},
 		"oauth2Consumer" : {
-			"redirectionUrls":["http://localhost:2014/OAuth2ReturnURL"]
+			"redirectionUrls":["https://localhost.adenin.com/OAuth2ReturnURL"]
 		},
 		"oauth2Provider" : {
 			"authorizationUrl" : "https://www.hipchat.com/users/authorize",
