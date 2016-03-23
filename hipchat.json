@@ -1,7 +1,7 @@
 {
 	"name" : "adenin HipChat integration",
 	"description" : "adenin Technologies HipChat Integration",
-	"key" : "localhost.adenin.com:2015/GetCapabilitiesDescriptor",
+	"key" : "at-hipchat-integration",
 	"links" : {
 		"homepage" : "https://localhost.adenin.com/",
 		"self" : "https://localhost.adenin.com/GetCapabilitiesDescriptor/hipchat"
