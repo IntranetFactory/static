@@ -20,9 +20,9 @@
 			]
 		},
 		"installable" : {
- - 			"allowGlobal" : true,
- - 			"allowRoom" : true
- - 		},
+  			"allowGlobal" : true,
+  			"allowRoom" : true
+  		},
 		"oauth2Consumer" : {
 			"redirectionUrls":["https://localhost.adenin.com/OAuth2ReturnURL"]
 		},
