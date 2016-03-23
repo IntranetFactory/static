@@ -22,7 +22,7 @@
 		"installable" : {
  			"allowGlobal" : true,
  			"allowRoom" : true,
- 			"callbackUrl" : "https://localhost.adenin.com/HipChatCallback"
+ 			"callbackUrl" : "https://localhost.adenin.com/installed"
  		},
 		"oauth2Consumer" : {
 			"redirectionUrls":["https://localhost.adenin.com/OAuth2ReturnURL"]
