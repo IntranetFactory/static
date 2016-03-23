@@ -4,7 +4,7 @@
 	"key" : "at-hipchat-integration",
 	"links" : {
 		"homepage" : "https://localhost.adenin.com/",
-		"self" : "https://localhost.adenin.com/GetCapabilitiesDescriptor/hipchat"
+		"self" : "https://raw.githubusercontent.com/IntranetFactory/static/master/hipchat.json"
 	},
 	"capabilities" : {
 		"hipchatApiConsumer" : {
