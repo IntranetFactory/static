@@ -1,11 +1,5 @@
 {
-	"notification" : {
-		"body" : "great match!",
-		"title" : "Portugal vs. Denmark",
-		"icon" : "myicon"
-	},
-	"data" : {
-		"Nick" : "Mario",
-		"Room" : "PortugalVSDenmark"
-	}
+	"body" : "great match!",
+	"title" : "Portugal vs. Denmark",
+	"icon" : "myicon"
 }
